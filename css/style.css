@@ -2116,7 +2116,142 @@ label {
     }
   }
 
-/*  CONTACT
+
+  /*
+  Srevices
+  */
+
+  .features-blue {
+    color: #fff;
+    background-color: #0d0c4c;
+    padding-bottom: 30px
+}
+
+.features-blue p {
+    color: rgba(255, 255, 255, .6)
+}
+
+.features-blue h2 {
+    font-weight: 700;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    color: inherit
+}
+
+@media (max-width:767px) {
+    .features-blue {
+        padding-bottom: 10px
+    }
+
+    .features-blue h2 {
+        margin-bottom: 25px;
+        padding-top: 25px;
+        font-size: 24px
+    }
+}
+
+.features-blue .intro {
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0 auto 60px
+}
+
+.features-blue .item {
+    min-height: 100px;
+    padding-left: 20px;
+    margin-bottom: 40px
+}
+
+@media (max-width:767px) {
+    .features-blue .intro {
+        margin-bottom: 40px
+    }
+
+    .features-blue .item {
+        min-height: 0
+    }
+}
+
+.features-blue .item .name {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: inherit
+}
+
+.features-blue .item .description {
+    font-size: 15px;
+    margin-bottom: 0
+}
+
+.features-blue .item .icon {
+    font-size: 40px;
+    color: #ffcc1e;
+    float: left;
+    margin-left: -65px;
+}
+
+.projects-clean {
+    color: #313437;
+    background-color: #fff
+}
+
+.projects-clean p {
+    color: #7d8285
+}
+
+.projects-clean h2 {
+    font-weight: 700;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    color: inherit
+}
+
+@media (max-width:767px) {
+    .projects-clean h2 {
+        margin-bottom: 25px;
+        padding-top: 25px;
+        font-size: 24px
+    }
+}
+
+.projects-clean .intro {
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0 auto
+}
+
+.projects-clean .intro p {
+    margin-bottom: 0
+}
+
+.projects-clean .projects {
+    padding-bottom: 40px
+}
+
+.projects-clean .item {
+    text-align: center;
+    padding-top: 50px;
+    min-height: 425px
+}
+
+.projects-clean .item .name {
+    font-weight: 700;
+    margin-top: 28px;
+    margin-bottom: 8px;
+    color: inherit
+}
+
+.projects-clean .item .description {
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 0
+}
+
+
+ /*  CONTACT
  *    stylings for contact form
  *    google map
  *
@@ -2242,5 +2377,3 @@ label {
   }
   
 
-    
-  
